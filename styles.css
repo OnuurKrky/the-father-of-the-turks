@@ -1,0 +1,87 @@
+body{
+    padding: 0 10px;
+    background: linear-gradient(360deg, #333, #ccc);
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.divider{
+    border-bottom: 1.4px dashed grey;
+    margin: 30px auto 0 auto;
+    width: 59%;
+
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#image {
+    max-width: 100%;
+    height:auto;
+    
+}
+
+h1{
+
+  font-family: "Noto Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(195, 0, 0);
+  font-size: 3.5rem;
+  margin: 10px 0;
+  
+}
+
+.header, .header p {
+    text-align: center;
+}
+
+.header p {
+    margin-top: -7px;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bold{
+    font-weight:  700;
+}
+.time-line li{
+    margin: 15px 0;
+}
+fieldset{
+    border: none;
+    margin-top: 50px;
+}
+legend{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.quotation{
+    text-align: center;
+    color: white;
+}
+
+main p:last-of-type{
+    text-align: center;
+    margin-bottom: 30px;
+}
+a{
+    color: white;
+}
